@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+ <title>Friendship Survey Form</title>
+</head>
+<body>
+   <div id="heading">
+    <h1 id=title>Love, loyalty, laughter – friends are everything!!</h1>
+    <p id="description">We value the special bonds of friendship and would love to understand your experiences, thoughts, and feelings about your friendships. !</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
+  <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>What do you value most in a friendship?  </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                 <option value="trust">Trust</option>
+        <option value="honesty">Honesty</option>
+        <option value="support">Support</option>
+        <option value="laughter">Laughter</option>
+        <option value="loyalty">Loyalty</option>
+        <option value="communication">Good Communication</option>
+        <option value="shared-interests">Shared Interests</option>
+        <option value="kindness">Kindness</option>
+        <option value="reliability">Reliability</option>
+            </select>
+         </div>
+         <div id="button-area">
+    <br>
+    <label id="friendship-label"><b>Your Perspective on Friendships:</b></label><br>
+    <input type="radio" class="radio-inline" name="friendship-perspective" value="essential" checked> Friendships are essential to my life.<br>
+    <input type="radio" class="radio-inline" name="friendship-perspective" value="important"> Friendships are important, but not everything.<br>
+    <input type="radio" class="radio-inline" name="friendship-perspective" value="situational"> Friendships depend on the situation or phase.<br>
+    <input type="radio" class="radio-inline" name="friendship-perspective" value="minimal"> I prefer minimal or no friendships.<br>
+  </div>
+  <div id="button-area">
+      <br>
+      <label id="friendship-label"><b>What do you enjoy sharing with friends? </b></label><br>
+      <input type="checkbox" name="share1" value="memories" checked> I enjoy sharing memories and stories.<br>
+      <input type="checkbox" name="share2" value="hobbies"> I enjoy sharing hobbies and activities.<br>
+      <input type="checkbox" name="share3" value="advice"> I enjoy giving and receiving advice.<br>
+      <input type="checkbox" name="share4" value="support"> I enjoy providing emotional support.<br>
+  </div>
+  <div id="dropdown">
+     <br><br>
+      <label id="dropdown-label"><strong>What type of friendship do you cherish the most? </strong></label><br>
+     <select id="dropdown" name="friendship-type" class="form"><br><br>
+         <option value="childhood">Childhood Friendships</option>
+          <option value="best-friend">Best Friend</option>
+          <option value="work-friend">Workplace Friendships</option>
+          <option value="family-friend">Family-Like Friendships</option>
+          <option value="online">Online Friendships</option>
+          <option value="mentor">Mentor or Guidance Friendships</option>
+          <option value="adventure">Adventure or Travel Friendships</option>
+          <option value="school">School/College Friendships</option>
+          <option value="supportive">Emotionally Supportive Friendships</option>
+      </select>
+    </div>
+    <div id="button-area">
+    <br><br>
+    <label id="friendship-label"><b>Ways you connect with friends:</b></label><br>
+    <input type="checkbox" name="connect1" value="chat"> Chatting or texting online<br>
+    <input type="checkbox" name="connect2" value="calls"> Phone or video calls<br>
+    <input type="checkbox" name="connect3" value="meetups"> In-person meetups<br>
+    <input type="checkbox" name="connect4" value="social-media"> Social media interactions<br>
+    <input type="checkbox" name="connect5" value="hobbies"> Shared hobbies or activities<br>
+</div>
+<div id="ending">
+    <br><br>
+    <label id="comments-label">Do you have any thoughts or suggestions about friendships you'd like to share?</label><br>
+    <textarea style="height:120px;" class="form" placeholder="Please feel free to share your thoughts..."></textarea><br><br>
+    <input id="submit" type="submit" class="form" value="Submit Survey">
+</div>
+</form>
+</div>
+</body>
+</html>
