@@ -1,0 +1,119 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#description {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#main {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Field Styles */
+.form {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Dropdown Styles */
+#dropdown-div, #dropdown {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+select.form {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Button Area */
+#button-area {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Ending Section */
+#ending {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Textarea Styling */
+textarea.form {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    #main {
+        width: 90%;
+    }
+
+    #title {
+        font-size: 2em;
+    }
+
+    #description {
+        font-size: 1.1em;
+    }
+}
+Close
